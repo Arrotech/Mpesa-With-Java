@@ -1,0 +1,24 @@
+input[type="tel"] {
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+}
+input[type="tel"]:focus {
+  border: 1px solid #000;
+}
+
+input[type="submit"] {
+  font-weight: bold;
+  padding: 4px 8px;
+  border:1px solid #000;
+  background: #3b5998;
+  color:#fff;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.p {
+  padding-top: 30px;
+}
