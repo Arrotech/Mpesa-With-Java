@@ -12,6 +12,13 @@ Such  API's include:
 7. Lipa na M-Pesa Online Payment
 8. Lipa na M-Pesa Online Query Request
 
+### Generate Authentication Token
+
+To make an API call, you will need to `authenticate your app`. To authorize your API call to the OAuth API, you will need a `Basic Auth` over `HTTPS authorization token`. The Basic Auth string is a `base64 encoded string` of your app’s `client key` and `client secret`.
+
+Send the request to the following url: https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials
+
+	method is GET
 
 ### Contributors
 
