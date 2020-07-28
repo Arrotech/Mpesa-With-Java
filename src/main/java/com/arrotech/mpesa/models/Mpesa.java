@@ -9,10 +9,10 @@ public class Mpesa {
 	private String Passowrd = "o9bdqa3LBDs0gJgL";
 
 	@SerializedName("InitiatorName")
-	private String InitiatorName = "testapi113";
+	private String InitiatorName = "apitest356";
 
 	@SerializedName("SecurityCredential")
-	private String SecurityCredential = "maN+EPY20v18tRwP8gAP/jbg8lGwXauLybXtUUcLKTmLFmmxGY7UHilZMKVdNF17xP1YX3NWQnBt9SANXFwQanqBH4xo87kRrx7bqu5lmYmt04XtHHvAp/8zQSrdrOT99Hj8nkCnJ3uc+antoJdqzN/5P7sl3neAgPw1Smc9U1Xv9BtCo7djL0sJQqZoYUMOo0SazMbShautR/PLGDLM7Rs9xSNDY60EJbo9xzjMj93Lu3skMJioQO0/1/r4EdK9qv8NYmV4wUFWIkpAamNlbXIDYtcJP1tBJHJfm6fXYemvT6GoUtEpOXYCjaBLV7UoT7/27o2BGzsCJrM8/YiUNQ==";
+	private String SecurityCredential = "VY3aZDy5S6H6B6XQmCCN8Jcxneo2/Nt8GH7PtWqeMJyaQ+3EJa3SyksJMCaB5zkdzw78WwRnXfqyLUadnWauG1s5Wluui7bmo+fad1FrN92z0Dtq4G9/gn5vOx+dUWcajH3gVMu48im1/7GS3zNLjqK227S7W4nCcBIBw+D5Ft9oblt2UOwGblXOxDkbmy7lRGe7xC2Rf7VZnmY/zIeicq70LDAPwjhWTFvY0ra1dWlPDxYIltJGbqDs86YaZbeqrZA1Bwh6eQN0BZCoWbf25dS8GhnZrFDUnJqqJRc5a04qtzz5ZnvppRDwZLmPr1kfrQ/s/196NtYMWeI1JG1qBQ==";
 
 	@SerializedName("CommandID")
 	private String CommandID = "SalaryPayment";
