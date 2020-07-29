@@ -1,3 +1,4 @@
+com\arrotech\mpesa\controllers\B2B.class
 com\arrotech\mpesa\controllers\GenerateToken.class
 com\arrotech\mpesa\models\Mpesa.class
 com\arrotech\mpesa\controllers\B2C.class

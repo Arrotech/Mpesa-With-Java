@@ -37,28 +37,55 @@ public class Mpesa {
 
 	@SerializedName("Occasion")
 	private String Occasion = "Mpesa B2C";
+	
+	@SerializedName("SenderIdentifierType")
+	private String SenderIdentifierType = "";
+	
+	@SerializedName("RecieverIdentifierType")
+	private String RecieverIdentifierType = "";
+	
+	@SerializedName("AccountReference")
+	private String AccountReference = "";
+	
+	@SerializedName("Initiator")
+	private String Initiator = "apitest356";
+	
 
 	public Mpesa() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Mpesa(String username, String passowrd, String initiatorName, String securityCredential, String commandID,
-			String amount, String partyA, String partyB, String remarks, String queueTimeOutURL, String resultURL,
-			String occasion) {
-		super();
-		Username = username;
-		Passowrd = passowrd;
-		InitiatorName = initiatorName;
-		SecurityCredential = securityCredential;
-		CommandID = commandID;
-		Amount = amount;
-		PartyA = partyA;
-		PartyB = partyB;
-		Remarks = remarks;
-		QueueTimeOutURL = queueTimeOutURL;
-		ResultURL = resultURL;
-		Occasion = occasion;
+	public String getSenderIdentifierType() {
+		return SenderIdentifierType;
+	}
+
+	public void setSenderIdentifierType(String senderIdentifierType) {
+		SenderIdentifierType = senderIdentifierType;
+	}
+
+	public String getRecieverIdentifierType() {
+		return RecieverIdentifierType;
+	}
+
+	public void setRecieverIdentifierType(String recieverIdentifierType) {
+		RecieverIdentifierType = recieverIdentifierType;
+	}
+
+	public String getAccountReference() {
+		return AccountReference;
+	}
+
+	public void setAccountReference(String accountReference) {
+		AccountReference = accountReference;
+	}
+
+	public String getInitiator() {
+		return Initiator;
+	}
+
+	public void setInitiator(String initiator) {
+		Initiator = initiator;
 	}
 
 	public String getUsername() {
