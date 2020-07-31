@@ -68,6 +68,17 @@ public class Mpesa {
 	@SerializedName("TransactionDesc")
 	private String TransactionDesc = "test";
 
+	@SerializedName("IdentifierType")
+	private String IdentifierType = "4";
+
+	public String getIdentifierType() {
+		return IdentifierType;
+	}
+
+	public void setIdentifierType(String identifierType) {
+		IdentifierType = identifierType;
+	}
+
 	public Mpesa() {
 		super();
 		// TODO Auto-generated constructor stub
