@@ -71,6 +71,17 @@ public class Mpesa {
 	@SerializedName("IdentifierType")
 	private String IdentifierType = "4";
 
+	@SerializedName("TransactionID")
+	private String TransactionID = "OGS81HCFJ4";
+
+	public String getTransactionID() {
+		return TransactionID;
+	}
+
+	public void setTransactionID(String transactionID) {
+		TransactionID = transactionID;
+	}
+
 	public String getIdentifierType() {
 		return IdentifierType;
 	}
