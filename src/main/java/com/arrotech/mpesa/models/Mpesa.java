@@ -18,7 +18,7 @@ public class Mpesa {
 	private String CommandID = "SalaryPayment";
 
 	@SerializedName("Amount")
-	private String Amount = "1000";
+	private String Amount = "10";
 
 	@SerializedName("PartyA")
 	private String PartyA = "601356";
@@ -37,23 +37,88 @@ public class Mpesa {
 
 	@SerializedName("Occasion")
 	private String Occasion = "Mpesa B2C";
-	
+
 	@SerializedName("SenderIdentifierType")
 	private String SenderIdentifierType = "";
-	
+
 	@SerializedName("RecieverIdentifierType")
 	private String RecieverIdentifierType = "";
-	
+
 	@SerializedName("AccountReference")
 	private String AccountReference = "";
-	
+
 	@SerializedName("Initiator")
 	private String Initiator = "apitest356";
-	
+
+	@SerializedName("BusinessShortCode")
+	private String BusinessShortCode = "174379";
+
+	@SerializedName("Timestamp")
+	private String Timestamp = "20200731104630";
+
+	@SerializedName("TransactionType")
+	private String TransactionType = "CustomerPayBillOnline";
+
+	@SerializedName("PhoneNumber")
+	private String PhoneNumber = "254708374149";
+
+	@SerializedName("CallBackURL")
+	private String CallBackURL = "http://uat.evirtualpay.com:8005/transactions/callback";
+
+	@SerializedName("TransactionDesc")
+	private String TransactionDesc = "test";
 
 	public Mpesa() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+
+	public String getBusinessShortCode() {
+		return BusinessShortCode;
+	}
+
+	public void setBusinessShortCode(String businessShortCode) {
+		BusinessShortCode = businessShortCode;
+	}
+
+	public String getTimestamp() {
+		return Timestamp;
+	}
+
+	public void setTimestamp(String timestamp) {
+		Timestamp = timestamp;
+	}
+
+	public String getTransactionType() {
+		return TransactionType;
+	}
+
+	public void setTransactionType(String transactionType) {
+		TransactionType = transactionType;
+	}
+
+	public String getPhoneNumber() {
+		return PhoneNumber;
+	}
+
+	public void setPhoneNumber(String phoneNumber) {
+		PhoneNumber = phoneNumber;
+	}
+
+	public String getCallBackURL() {
+		return CallBackURL;
+	}
+
+	public void setCallBackURL(String callBackURL) {
+		CallBackURL = callBackURL;
+	}
+
+	public String getTransactionDesc() {
+		return TransactionDesc;
+	}
+
+	public void setTransactionDesc(String transactionDesc) {
+		TransactionDesc = transactionDesc;
 	}
 
 	public String getSenderIdentifierType() {
