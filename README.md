@@ -24,7 +24,7 @@ Send the request to the following url: https://sandbox.safaricom.co.ke/oauth/v1/
 
 `Business to Customer` refers to a scenario where a business entity `makes a payment(s)` to it’s `customer(s) via MPESA`. `FutureVH` will handle your organization’s  B2C integration to enable it make payments from it’s `Financial system / ERP directly` to  customers via your M-PESA `paybill account`.
 
-Send the request to the following url: 
+Send the request to the following url: https://sandbox.safaricom.co.ke/mpesa/b2c/v1/paymentrequest
 	
 	
 ### B2B
@@ -56,6 +56,14 @@ Send the request to the following url: https://sandbox.safaricom.co.ke/mpesa/acc
 `Transaction Status API` checks the `status` of a `B2B, B2C and C2B APIs transactions`.
 
 Send the request to the following url: https://sandbox.safaricom.co.ke/mpesa/transactionstatus/v1/query
+
+	method is POST
+	
+### Reversal Transaction
+
+`Reverses` a B2B, B2C or C2B M-Pesa transaction.
+
+Send the request to the following url: https://sandbox.safaricom.co.ke/mpesa/reversal/v1/request
 
 	method is POST
 

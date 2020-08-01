@@ -74,6 +74,17 @@ public class Mpesa {
 	@SerializedName("TransactionID")
 	private String TransactionID = "OGS81HCFJ4";
 
+	@SerializedName("ReceiverParty")
+	private String ReceiverParty = "601356";
+
+	public String getReceiverParty() {
+		return ReceiverParty;
+	}
+
+	public void setReceiverParty(String receiverParty) {
+		ReceiverParty = receiverParty;
+	}
+
 	public String getTransactionID() {
 		return TransactionID;
 	}
